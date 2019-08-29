@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/colorPrimaryDark"
+              android:padding="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/this_riddle_at_this_difficulty_has_at_max"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="30sp"
+                android:padding="5dp"
+                android:id="@+id/countStates"
+                android:text="@string/too_many"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/wrong_solutions_while_a_single"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="30sp"
+                android:padding="5dp"
+                android:text="@string/one"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/is_the_right_one"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/width_"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/countWidth"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:text="@string/one"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/height_"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/countHeight"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:text="@string/one"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/difficulty_"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/countDifficulty"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:text="@string/one"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/states_per_entity"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/countStatesPerEntity"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:text="@string/one"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/initial_swaps"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/initial_swaps2"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/countSwaps"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:text="@string/one"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="@string/swaps"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
